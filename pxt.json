@@ -1,7 +1,7 @@
 {
-    "name": "keyestudio-IR-remote",
-    "version": "0.0.6",
-    "description": "keyestudio Infrared Wireless Module Kit for microbit.",
+    "name": "Controlo Infravermelho",
+    "version": "0.0.1",
+    "description": "Controlo remoto com o comando do carro da Junicoders",
     "license": "MIT",
     "dependencies": {
         "core": "*",
