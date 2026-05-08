@@ -173,7 +173,7 @@ namespace irReceiver {
      * Write the date: 2020-5-15
      */
     //% blockId="infrared_connect"
-    //% block="connect IR receiver at %IR_pin"
+    //% block="conectar o recetor IV no %IR_pin"
     //% IR_pin.fieldEditor="gridpicker"
     //% IR_pin.fieldOptions.columns=4
     //% IR_pin.fieldOptions.tooltips="false"
@@ -193,7 +193,7 @@ namespace irReceiver {
     //% button.fieldEditor="gridpicker"
     //% button.fieldOptions.columns=3
     //% button.fieldOptions.tooltips="false"
-    //% block="IR button %button"
+    //% block="Botão IV %button"
     //% weight=98
     export function irButton(button: IrButton): number {
         return button as number;
@@ -206,7 +206,7 @@ namespace irReceiver {
      * Write the date: 2020-5-18
      */
     //% blockId=infrared_pressed_button
-    //% block="IR button"
+    //% block="Botão IV"
     //% weight=97
     export function returnIrButton(): number {
         irDataProcessing();
