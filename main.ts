@@ -1,3 +1,9 @@
+// keyestudio Infrared Wireless Module Kit for microbit
+// (receiver module+remote controller)
+// author: jieliang mo
+// github:https://github.com/mworkfun
+// Write the date: 2020-5-15
+
 const enum IrButton {
     //% block=" "
     Any = -1,
@@ -42,6 +48,13 @@ const enum IrButton {
     //% block="#"
     Hash = 74
 }
+/**
+ * create IR_receiver namespace
+ * use for keyestudio IR receiver and IR emission kit
+ * author: jieliang mo
+ * Write the date: 2020-5-15
+ */
+//% color="#ff6800" weight=10 icon="\uf1eb"
 namespace irReceiver {
     /**
      * define a IR receiver class
@@ -200,3 +213,4 @@ namespace irReceiver {
         return IR_R.command;
     }
 }
+

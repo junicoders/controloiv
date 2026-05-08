@@ -1,24 +1,37 @@
+# pxt-IR-receiver
 
-> Abrir esta página em [https://junicoders.github.io/controloiv/](https://junicoders.github.io/controloiv/)
+//Initialize infrared receiver using digitalPin
 
-## Utilizar como Extensão
+irReceiver.connectInfrared(Pin: DigitalPin)
 
-Este repositório pode ser adicionado como uma **extensão** no MakeCode.
+//Key value on infrared transmitter
 
-* abrir [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* clica em **Novo Projeto**
-* clica em **Extensões** sob o menu de definições
-* procurar um **https://github.com/junicoders/controloiv** e importar
+irReceiver.irButton(button: IrButton)
 
-## Editar este projeto
+//Return IR button value
 
-Para editar este repositório no MakeCode.
+//It will always return 0 when no button is pressed
 
-* abrir [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* clica em **Importar** e, em seguida, em **Importar URL**
-* colar **https://github.com/junicoders/controloiv** e clicar em importar
+irReceiver.returnIrButton()
 
-#### Metadados (usados para pesquisa, renderização)
+github:https://github.com/mworkfun/pxt-RI-receiver.git
+
+product: https://wiki.keyestudio.com/Ks0026_keyestudio_Digital_IR_Receiver_Module
+
+## TODO
+
+- [ ] Add a reference for your blocks here
+- [ ] Add "icon.png" image (300x200) in the root folder
+- [ ] Add "- beta" to the GitHub project description if you are still iterating it.
+- [ ] Turn on your automated build on https://travis-ci.org
+- [ ] Use "pxt bump" to create a tagged release on GitHub
+- [ ] On GitHub, create a new file named LICENSE. Select the MIT License template.
+- [ ] Get your package reviewed and approved https://makecode.microbit.org/extensions/approval
+
+Read more at https://makecode.microbit.org/extensions
+
+## Supported targets
 
 * for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+(The metadata above is needed for package search.)
+
