@@ -1,7 +1,11 @@
 {
-    "name": "Controlo-Infravermelho",
-    "version": "0.0.2",
-    "description": "Controlo remoto com o comando do carro da Junicoders",
+    "name": "controlo-iv",
+    "version": "0.0.3",
+    "description": "infrared remote control for microbit",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*"
+    },
     "files": [
         "README.md",
         "main.ts"
@@ -10,7 +14,12 @@
         "test.ts"
     ],
     "public": true,
-    "preferredEditor": "tsprj",
-    "icon": "icon.png",
-    "installedVersion": "workspace:7b15ebfa-06d7-4c34-b272-5e68af16d967"
+    "targetVersions": {
+        "target": "4.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
 }
