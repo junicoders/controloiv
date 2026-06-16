@@ -1,10 +1,10 @@
 {
-    "name": "Controlo Infravermelho",
+    "name": "Controlo-Infravermelho",
     "version": "0.0.2",
     "description": "Controlo remoto com o comando do carro da Junicoders",
-    "license": "MIT",
     "dependencies": {
         "core": "*",
+        "microphone": "*"
     },
     "files": [
         "README.md",
