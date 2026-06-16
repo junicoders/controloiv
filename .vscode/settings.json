@@ -7,8 +7,7 @@
         "**/node_modules/**": true,
         "**/yotta_modules/**": true,
         "**/yotta_targets": true,
-        "**/pxt_modules/**": true,
-        "**/.pxt/**": true
+        "**/pxt_modules/**": true
     },
     "files.associations": {
         "*.blocks": "html",
@@ -19,11 +18,6 @@
         "**/node_modules": true,
         "**/yotta_modules": true,
         "**/yotta_targets": true,
-        "**/pxt_modules": true,
-        "**/.pxt": true
-    },
-    "files.exclude": {
-        "**/pxt_modules": true,
-        "**/.pxt": true
+        "**/pxt_modules": true
     }
 }
