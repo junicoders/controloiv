@@ -2,10 +2,6 @@
     "name": "Controlo-Infravermelho",
     "version": "0.0.2",
     "description": "Controlo remoto com o comando do carro da Junicoders",
-    "dependencies": {
-        "core": "*",
-        "microphone": "*"
-    },
     "files": [
         "README.md",
         "main.ts"
