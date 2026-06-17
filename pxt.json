@@ -1,5 +1,5 @@
 {
-    "name": "controlo-iv",
+    "name": "controloiv",
     "version": "0.0.3",
     "description": "infrared remote control for microbit",
     "dependencies": {
